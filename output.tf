@@ -2,6 +2,10 @@ output "id" {
     value = "${azurerm_storage_account.mod.id}"
 }
 
+output "name" {
+    value = "${azurerm_storage_account.mod.name}"
+}
+
 output "primary_location" {
     value = "${azurerm_storage_account.mod.primary_location}"
 }
